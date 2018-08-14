@@ -1,0 +1,35 @@
+.bg-gradient{
+  background: linear-gradient(to bottom right, #0A3565, #1782D9);
+}
+.btn{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 2rem;  
+}
+.btn-gradient{
+  background: linear-gradient(to bottom right, #0A3565, #1782D9);
+  color: white;
+  &:hover{
+    background: linear-gradient(to bottom right, #04274E, #0770C8);   
+    color: white; 
+  }
+}
+.card-item{
+  display: flex;
+  justify-content: center;
+}
+.tab-content{
+  height: 420px;
+  overflow-y: scroll;
+}
+.link-modal{
+  color: #1782D9!important;
+  cursor: pointer;
+  &:hover{
+    text-decoration: none;
+  }
+}
+.content{
+  position: relative;
+}
